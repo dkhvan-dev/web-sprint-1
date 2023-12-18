@@ -1,0 +1,108 @@
+header {
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+    text-align: center; 
+    align-content: center; 
+    background-color: #003a61;
+}
+
+.header-title {
+    margin: 0; 
+    color: #fff;
+}
+
+span {
+    font-weight: bold;
+}
+
+.header-links {
+    width: 300px; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.header-links a {
+    text-decoration: none; 
+    color: #828383;
+}
+
+main {
+    
+}
+
+.main-welcome {
+    margin-top: 20px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    background-color: #c0c0c0; 
+    text-align: center;
+}
+
+.main-welcome p {
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+.main-title {
+    margin-top: 20px; 
+    font-size: 20px; 
+    text-align: center;
+}
+
+.main-title p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+tr td {
+    padding: 0; 
+    border: 1px solid #adadad;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-info {
+    padding-left: 10px; 
+    padding-bottom: 10px;
+}
+
+.card-info p:first-child:first-letter {
+    color: #ff0000;
+}
+
+.card-info p:first-child:first-line {
+    color: #ff0000;
+}
+
+button {
+    padding: 7px; 
+    background-color: #0099ff; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+}
+
+#card-btn-first {
+    background-color: #ff0000; 
+    color: #000000; 
+}
+
+button:hover {
+    background-color: #1eff00;
+    color: #000;
+    transition: .8s;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+li::before {
+    content: url('https://sun6-22.userapi.com/OnbPQfBKT8kJQNYLpmkRYf2IIXnbyV8H-bofRA/qsvyaEbhqKM.jpg');
+    width: 50px;
+    height: 50px;
+}
